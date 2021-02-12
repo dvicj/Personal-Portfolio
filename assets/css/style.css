@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    /*background-image: url("../images/background.jpg");*/
+}
+
+:root {
+    --pink: #EED8DE; 
+    --peach: #FFC182;
+    --lemon: #F5F591; 
+    --mint: #CBF5B5; 
+    --sky: #C2D5EC; 
+    --lilac: #E1CFD8; 
+}; 
+
+
+.header-image {
+    height: 350px; 
+    width: auto; 
+}
+
+/* .header {
+    background-image: linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));   
+} */
