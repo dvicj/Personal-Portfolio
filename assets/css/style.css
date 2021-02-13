@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-image: linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    background-image: linear-gradient(var(--lilac), var(--sky), var(--mint), var(--lemon),var(--peach),var(--pink));
     font-family: 'Montserrat Alternates', sans-serif;   
 }
 
@@ -57,8 +57,8 @@ footer p {
 }
 
 .title h2, .description h4 {
+    font-family: 'Montserrat Alternates', sans-serif;   
     font-size: 50px; 
-    font-weight: bolder; 
     background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -112,7 +112,7 @@ footer p {
 }
 
 a:hover, i:hover {
-    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon));
+    background: -webkit-linear-gradient(var(--lilac), var(--sky), var(--mint));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
