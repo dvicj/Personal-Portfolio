@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    /*background-image: url("../images/background.jpg");*/
+    background-image: linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    font-family: 'Montserrat Alternates', sans-serif;   
 }
 
 :root {
@@ -12,12 +13,108 @@
     --lilac: #E1CFD8; 
 }; 
 
-
 .header-image {
-    height: 350px; 
+    height: auto; 
     width: auto; 
+    background-image: none; 
 }
 
-/* .header {
-    background-image: linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));   
-} */
+section, navbar, div, a, h2, h4, img, footer, p, i {
+    background-image: none;
+}
+
+.nav-but {
+    background-color: black; 
+    border: 3px solid transparent; 
+    border-image-source: linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    border-image-slice: 1;
+}
+
+a {
+    font-size: 45px;
+    font-family: 'Monoton', cursive;
+    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    font-size: 18px;
+    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title, .description {
+    background-color: black;
+    border: 3px solid transparent; 
+    border-image-source: linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    border-image-slice: 1;
+}
+
+.title h2, .description h4 {
+    font-size: 50px; 
+    font-weight: bolder; 
+    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title p {
+    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description h4 {
+    font-size: 25px; 
+    text-align: end;
+}
+
+.description p {
+    font-size: 30px; 
+    text-align: end; 
+}
+
+
+.description img {
+    height: 150px; 
+    width: auto; 
+    padding: 10px; 
+}
+
+.row, .col {
+    margin: 10px; 
+    
+} 
+
+.link {
+    background-color: black; 
+}
+
+.link h1 {
+    font-size: 60px;
+    font-family: 'Monoton', cursive;
+    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    font-size: 50px;
+    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a:hover, i:hover {
+    background: -webkit-linear-gradient(var(--pink), var(--peach), var(--lemon));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+

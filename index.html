@@ -7,9 +7,30 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Devin Victoria Jones</title>
 </head>
 <body>
+    <navbar class="container navigation">
+        <div class="row justify-content-center">
+            <div class="col nav-but">
+                <a href="#my-work" class="links">My Work</a>
+            </div>
+            <div class="col nav-but">
+                <a href="#about-me" class="links">About Me</a>
+            </div>
+            <div class="col nav-but">
+                <a href="#links" class="links">Links</a>
+            </div>
+        </div>
+    </navbar>
+
     <div class="container header">
         <div class="row justify-content-center">
             <div class="col-6">
@@ -18,6 +39,88 @@
         </div>
     </div>
 
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 link" id="my-work"> <h1>My Work</h1> </div>
+            <div class="col title">
+                <h2>PokeParte</h2>
+                <p> This was built with a team of four other students.
+                    Using the PokeAPI and AccuWeather, this application 
+                    returns 10 Pokemon based on weather conditions.
+                </p>
+            </div>
+            <div class="col description">
+                <h4>HTML, CSS, APIs, JavaScript</h4>
+                <a href="https://github.com/damn-ma-6/Poke-Parte"><img src="assets/images/Poké-Parté.png" alt="PokeParte"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col title">
+                <h2>Team Profile Generator</h2>
+                <p>
+                    An application using Node.js to accept user input 
+                    and create an HTML webpage based on answers to questions.
+
+                </p>
+            </div>
+            <div class="col description">
+                <h4>HTML, CSS, JavaScript, Node</h4>
+                <a href="https://github.com/dvicj/Team-Profile-Generator"><img src="assets/images/final website.png" alt="Team Profile Generator"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col title ">
+                <h2>Weather Dashboard</h2>
+                <p>
+                    An application using the OpenWeather API. Search for a city
+                    and get current weather conditions and a 5 day forecast.
+                </p>
+            </div>
+            <div class="col description">
+                <h4>HTML, CSS, APIs, JavaScript</h4>
+                <a href="https://github.com/dvicj/Weather-Dashboard"><img src="assets/images/Devin-s-Weather-Dashboard.png"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col title"><h2>Coming Projects</h2></div>
+            <div class="col description"><h4>Troll Database, Family Database, Improved PokeParte</h4></div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 link" id="about-me"> <h1>About Me</h1> </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 link" id="links"> <h1>Links</h1> </div>
+            <div class="col icon">
+                <i class="fab fa-github-alt"></i>
+            </div>
+            <div class="col icon">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="col icon">
+                <i class="fab fa-ravelry"></i>
+            </div>
+            <div class="col icon">
+                <i class="fab fa-spotify"></i>
+            </div>
+            <div class="col icon">
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>  
+    </section>
+
+    <footer class="container">
+        <div class="row justify-content-center">
+            <p class="col">
+            Made with love and Squalor by Devin Jones in 2021.
+            </p>
+        </div>  
+    </footer>
 
 
 
