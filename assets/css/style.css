@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0px; 
+    margin: 0px; 
     background-image: linear-gradient(var(--lilac), var(--sky), var(--mint), var(--lemon),var(--peach),var(--pink));
     font-family: 'Montserrat Alternates', sans-serif;   
 }
@@ -13,8 +15,8 @@
     --lilac: #E1CFD8; 
 }; 
 
-.header-image {
-    height: auto; 
+.header-image img {
+    height: 100px; 
     width: auto; 
     background-image: none; 
 }
@@ -49,7 +51,7 @@ footer p {
     -webkit-text-fill-color: transparent;
 }
 
-.title, .description {
+.title, .description, .link, .foot {
     background-color: black;
     border: 3px solid transparent; 
     border-image-source: linear-gradient(var(--pink), var(--peach), var(--lemon), var(--mint),var(--sky),var(--lilac));
@@ -81,15 +83,8 @@ footer p {
 }
 
 
-.description img {
-    height: 150px; 
-    width: auto; 
-    padding: 10px; 
-}
-
 .row, .col {
     margin: 10px; 
-    
 } 
 
 .link {
